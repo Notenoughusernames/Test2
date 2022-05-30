@@ -1,0 +1,44 @@
+{
+    "homepage": "https://www.brow.sh/",
+    "license": {
+		"identifier": "LGPL-2.1",
+		"url": "https://raw.githubusercontent.com/browsh-org/browsh/master/LICENSE"
+		},
+    "version": "1.6.4",
+    "description": "Browsh is a fully-modern text-based browser. It renders anything that a modern browser can",
+    "notes": [
+        "*Required*, download the Firefox add-on (browsh-latest-an.fx.xpi) from the bottom of the releases list.",
+        "*Required*, launch Firefox using commands:--marionette --headless",
+        "*Required*, launch using: browsh.exe --firefox.use-existing",
+	     "For help go to www.brow.sh/docs/introduction/ or github.com/browsh-org/browsh/issues/",
+             ],
+    "architecture": {
+	       "32bit": {
+		     "url": "https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_windows_386.exe",
+		     "hash": "653D1479A46E6328C5BB50DA57BD869A9DA7B3456BF5D34A98E9B3DAFDD7FD8A",
+                        },
+               "64bit": {
+                     "url": "https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_windows_amd64.exe",
+                     "hash": "0D8BB2A1617F71400142D84F5B2D836D4F47EC924A6A1C3B9317C6B3FFE4C418",
+		        }
+     },
+      "bin": "browsh.exe",
+      "checkver": {
+                  "github": "https://github.com/browsh-org/browsh"
+                  },
+      "autoupdate": {
+		"32bit": {
+                    "url": "https://github.com/browsh-org/browsh/releases/download/v$version/browsh_$version_windows_386.exe"
+            	         },
+                "64bit": {
+                     "url": "https://github.com/browsh-org/browsh/releases/download/v$version/browsh_$version_windows_amd64.exe"
+                         },
+
+    },
+    "suggest": {
+        "Mozilla Firefox": [
+            "extras/firefox",
+			   ],
+	"browsh-<latest>-an.fx.xpi": "Bottom of; github.com/browsh-org/browsh/releases/"
+     },
+}
