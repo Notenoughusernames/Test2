@@ -19,7 +19,7 @@
                         },
                "64bit": {
                      "url": "https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_windows_amd64.exe",
-                     "hash": "0D8BB2A1617F71400142D84F5B2D836D4F47EC924A6A1C3B9317C6B3FFE4C418",
+                     "hash": "a02f7b52c27544e5d2836ed43fec928dd6430abfee531b98480f7ce82ad8ae65",
 		        }
      },
       "bin": "browsh.exe",
