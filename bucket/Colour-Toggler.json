@@ -1,0 +1,12 @@
+{
+    "homepage": "https://github.com/Notenoughusernames/Colour-Toggler",
+    "license": "Unlicense",
+    "version": "1.0",
+    "description": "CLI toggling for windows built in colour filters i.e greyscale, through powershell. Useful for reading.",
+    "url": "https://github.com/Notenoughusernames/Colour-Toggler/archive/825fd3445dff99e3442b122f693a7df5068afe1e.zip",
+	"extract_dir": "Colour-Toggler-825fd3445dff99e3442b122f693a7df5068afe1e",
+    "bin": [
+	"CFilter.ps1",
+			     "CFilterOff.ps1",
+				 ],
+}
