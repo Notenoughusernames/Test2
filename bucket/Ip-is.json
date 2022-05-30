@@ -1,7 +1,7 @@
 {
     "version": "1.0",
     "homepage": "https://gist.github.com/Notenoughusernames/42f745a274c6b8e4ccecfc64d7db1103",
-    "license": "Unlicense",
+    "license": "The Unlicense",
     "description": "Check your current ip address.",
     "url": "https://gist.githubusercontent.com/Notenoughusernames/42f745a274c6b8e4ccecfc64d7db1103/raw/1adf4cde44e425c6246ca19fe2bf6b5371ea5c9e/ip-is.ps1",
     "bin": "ip-is.ps1"
