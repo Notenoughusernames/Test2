@@ -10,12 +10,12 @@
         "*Required*, download the Firefox add-on (browsh-latest-an.fx.xpi) from the bottom of the releases list.",
         "*Required*, launch Firefox using commands:--marionette --headless",
         "*Required*, launch using: browsh.exe --firefox.use-existing",
-	     "For help go to www.brow.sh/docs/introduction/ or github.com/browsh-org/browsh/issues/",
+	"For help go to www.brow.sh/docs/introduction/ or github.com/browsh-org/browsh/issues/",
              ],
     "architecture": {
 	       "32bit": {
 		     "url": "https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_windows_386.exe",
-		     "hash": "653D1479A46E6328C5BB50DA57BD869A9DA7B3456BF5D34A98E9B3DAFDD7FD8A",
+		     "hash": "014f132f98fd580714e6e3a98c634b0abb5e1eb5396b9846aa3ff6f3e2995d49",
                         },
                "64bit": {
                      "url": "https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_windows_amd64.exe",
