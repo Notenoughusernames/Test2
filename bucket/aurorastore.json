@@ -15,12 +15,5 @@
         "Wsa-Pacman": [
             "extras/wsa-pacman",
 		      ],
-    	       },
-    "shortcuts": [ 
-	    	 [
-	      "Aurorastore_${version}.apk",
-	      "Aurorastore_"
-		 ]
-    ],
-	    
+    	       },	    
  }
