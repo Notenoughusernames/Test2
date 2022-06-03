@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.brow.sh/",
     "license": {
-		"identifier": "LGPL-2.1",
-		"url": "https://raw.githubusercontent.com/browsh-org/browsh/master/LICENSE"
-		},
+	   "identifier": "LGPL-2.1",
+	   "url": "https://raw.githubusercontent.com/browsh-org/browsh/master/LICENSE"
+	        },
     "version": "1.6.4",
     "description": "Browsh is a fully-modern text-based browser. It renders anything that a modern browser can",
     "notes": [
@@ -17,23 +17,23 @@
 		     "url": "https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_windows_386.exe",
 		     "hash": "014f132f98fd580714e6e3a98c634b0abb5e1eb5396b9846aa3ff6f3e2995d49",
                 "pre_install": [
-                "$sourceFile = Join-Path -Path $original_dir -ChildPath \"browsh_${version}_windows_amd64.exe\"",
-                "$destFile = Join-Path -Path $original_dir -ChildPath \"browsh.exe\"",
+                "$sourceFile = Join-Path -Path $original_dir -ChildPath \"Browsh_${version}_windows_amd64.exe\"",
+                "$destFile = Join-Path -Path $original_dir -ChildPath \"Browsh.exe\"",
                 "$null = Copy-Item -LiteralPath $sourceFile -Destination $destFile -Force"
-            ]
-            ]
-                        },
+                               ]
+		        },
+
                "64bit": {
                      "url": "https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_windows_amd64.exe",
                      "hash": "d6c03a3bd3a47c46f52af45bf51ca57b241ac233fcb025a4626f72cd71429b6f",
-	       "pre_install": [
-                "$sourceFile = Join-Path -Path $original_dir -ChildPath \"browsh_${version}_windows_amd64.exe\"",
-                "$destFile = Join-Path -Path $original_dir -ChildPath \"browsh.exe\"",
+	        "pre_install": [
+                "$sourceFile = Join-Path -Path $original_dir -ChildPath \"Browsh_${version}_windows_amd64.exe\"",
+                "$destFile = Join-Path -Path $original_dir -ChildPath \"Browsh.exe\"",
                 "$null = Copy-Item -LiteralPath $sourceFile -Destination $destFile -Force"
-            ]
+                               ]
 		        }
-     },
-      "bin": "browsh",
+},
+      "bin": "Browsh.exe",
       "checkver": {
                   "github": "https://github.com/browsh-org/browsh"
                   },
@@ -50,6 +50,6 @@
         "Mozilla Firefox": [
             "extras/firefox",
 			   ],
-	"browsh-<latest>-an.fx.xpi": "Bottom of; github.com/browsh-org/browsh/releases/"
-     },
+	"Browsh-<latest>-an.fx.xpi": "github.com/browsh-org/browsh/releases/"
+    },
 }
