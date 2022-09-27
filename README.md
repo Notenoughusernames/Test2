@@ -1,7 +1,7 @@
 # Bluemoon
 My personal and experimental scoop bucket for Wsa, useful tools I've found nowhere else, and a some fun.
 
-scoop bucket add bluemoon `https://github.com/Notenoughusernames/bluemoon`
+`scoop bucket add bluemoon https://github.com/Notenoughusernames/bluemoon`
 
 -------------------------------------------------------------------------
 </details>
