@@ -4,6 +4,6 @@
     "license": "The Unlicense",
     "description": "Easy file pushing for WSA. Place files in the 'C:wsapush' folder and run the command",
     "url": "https://gist.github.com/Notenoughusernames/7a4ceaf652bac2a5015284c07939ad4c",
-    "hash":"705c7176250ecf571d1e3b91af2d61d105e74d1b735beb3778812ce49d98dc0c",
+    "hash":"b46ead45731d2b63e73144413415fa234591d17eb2f9f704cbd3af96ecefb9ca",
     "bin": "wsapush.bat"
 }
