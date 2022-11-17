@@ -1,0 +1,9 @@
+{
+    "version": "1.0",
+    "homepage": "https://gist.github.com/Notenoughusernames/7a4ceaf652bac2a5015284c07939ad4c",
+    "license": "The Unlicense",
+    "description": "Easy file pushing for WSA. Place files in the 'C:\wsapush' folder and run the command",
+    "url": "https://gist.github.com/Notenoughusernames/7a4ceaf652bac2a5015284c07939ad4c",
+    "hash":"50960df95b50af9ecfc02564009e2133770d66b049ad08f97f5dbe2f18b9fab0",
+    "bin": wsapush.bat"
+}
